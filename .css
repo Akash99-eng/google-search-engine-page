@@ -1,0 +1,325 @@
+body {
+    padding:0;
+    margin:0;
+    font-family:varela Round, sans-serif;
+}
+.hero{
+    width:380px;
+    height:600px;
+    justify-content:center;
+    align-item:center;
+    display:flex;
+    background-color:#f0f3ff;
+}
+#search-box{
+    border-radius:55px;
+     background-color:#f0f3ff;
+    height:70px;
+    width:320px;
+    
+    margin-top:200px;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.5),
+   -6px -6px 10px -1px rgba(255,255,255,0.7);
+margin-left:-40px;
+
+}
+#google-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left:20px;
+    margin-top:20px;
+}
+.search-icon{
+    width:26px;
+    cursor:pointer;
+    margin-left:15px;
+    
+    
+}
+input{
+    width:170px;
+    border:none;
+    background:transparent;
+    font-size:15px;
+    outline:none;
+    margin-left:14px;
+    
+}
+#search-box:hover{
+  transform: rotate(-20deg);
+    transform: skew(25deg);
+    transform: translate(20px,15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+    
+}
+.upper-line {
+    width:50px;
+    font-size:70px;
+    font-family:serif;
+    margin-top:-550px;
+    margin-left:60px;
+    
+    display:flex;
+}
+.upper-line p1{
+    color:#4285f4;
+    text-shadow:-3px -1px 5px gray;
+}
+.upper-line p1:hover{
+    transform: rotate(-20deg);
+    transform: skew(25deg);
+    transform: translate(-2px,-9px);
+  /*  box-shadow: -50px 50px 50px*/ rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.upper-line p2{
+    color:#ea4335;
+    text-shadow:-3px -1px 5px gray;
+    
+}
+.upper-line p2:hover{
+    transform: rotate(-20deg);
+    transform: skew(25deg);
+    transform: translate(-2px,-9px);
+  /*  box-shadow: -50px 50px 50px*/ rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+    }
+.upper-line p11{
+    color:#fbbc05;
+    text-shadow:-3px -1px 5px gray;
+}
+.upper-line p11:hover{
+    transform: rotate(-20deg);
+    transform: skew(25deg);
+    transform: translate(-2px,-9px);
+  /*  box-shadow: -50px 50px 50px*/ rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;}
+
+
+
+
+
+.upper-line p3{
+    color:#4285f4;
+    text-shadow:-3px -1px 5px gray;
+}
+.upper-line p3:hover{
+    transform: rotate(-20deg);
+    transform: skew(25deg);
+    transform: translate(-2px,-9px);
+  /*  box-shadow: -50px 50px 50px*/ rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+    }
+.upper-line p4{
+    color:#34a853;
+    text-shadow:-3px -1px 5px gray;
+}
+.upper-line p4:hover{
+    transform: rotate(-20deg);
+    transform: skew(25deg);
+    transform: translate(-2px,-9px);
+  /*  box-shadow: -50px 50px 50px*/ rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+    }
+.upper-line p5{
+    color:#ea4335;
+    text-shadow:-3px -1px 5px gray;
+    
+}
+.upper-line p5:hover{
+    transform: rotate(-20deg);
+    transform: skew(25deg);
+    transform: translate(-2px,-9px);
+  /*  box-shadow: -50px 50px 50px*/ rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fb-icon{
+    width:60px;
+    height:60px;
+    background-color:#f0f3ff;
+    margin-top:205px;
+    margin-left:30px;
+    border-radius:100px;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.7),
+   -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.fb-icon img{
+    width:30px;
+    margin-left:15px;
+    margin-top:18px;
+}
+.youtube{
+    width:60px;
+    height:60px;
+    background-color:#f0f3ff;
+    margin-top:-60px;
+    margin-left:140px;
+    border-radius:100px;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.7),
+   -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.youtube img{
+    width:30px;
+    margin-left:15px;
+    margin-top:18px;
+}
+
+.insta{
+    width:60px;
+    height:60px;
+    background-color:#f0f3ff;
+    margin-top:-65px;
+    margin-left:255px;
+    border-radius:100px;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.7),
+   -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.insta img{
+    width:30px;
+    margin-left:15px;
+    margin-top:18px;
+}
+ .insta:hover{
+   transform: rotate(20deg);
+    transform: skew(0deg);
+    transform: translate(20px,15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+    }
+
+
+ .fb-icon:hover{
+   transform: rotate(20deg);
+    transform: skew(0deg);
+    transform: translate(20px,15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+   
+
+
+    }
+ .youtube:hover{
+   transform: rotate(20deg);
+    transform: skew(0deg);
+    transform: translate(20px,15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+    }
+    /*payment*/
+    
+    
+    
+    
+    .payment{
+    width:60px;
+    height:60px;
+    background-color:#f0f3ff;
+    margin-top:-59px;
+    margin-left:140px;
+    border-radius:100px;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.7),
+   -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.payment img{
+    width:30px;
+    margin-left:15px;
+    margin-top:18px;
+}
+ .payment:hover{
+   transform: rotate(20deg);
+    transform: skew(0deg);
+    transform: translate(20px,15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+    }
+    .amazon{
+    width:60px;
+    height:60px;
+    background-color:#f0f3ff;
+    margin-top:45px;
+    margin-left:30px;
+    border-radius:100px;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.7),
+   -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.amazon img{
+    width:30px;
+    margin-left:15px;
+    margin-top:18px;
+}
+ .amazon:hover{
+   transform: rotate(20deg);
+    transform: skew(0deg);
+    transform: translate(20px,15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+    }
+    /* twitter handle*/
+    .twitter{
+    width:60px;
+    height:60px;
+    background-color:#f0f3ff;
+    margin-top:-60px;
+    margin-left:250px;
+    border-radius:100px;
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.7),
+   -6px -6px 10px -1px rgba(255,255,255,0.7);
+
+}
+.twitter img{
+    width:30px;
+    margin-left:15px;
+    margin-top:18px;
+}
+ .twitter:hover{
+   transform: rotate(20deg);
+    transform: skew(0deg);
+    transform: translate(20px,15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
